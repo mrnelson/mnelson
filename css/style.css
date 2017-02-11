@@ -33,6 +33,31 @@ a{
 }
 
 
+
+#lalala {
+    background-image:url('http://i.imgur.com/RvQdH.jpg');
+    width:100%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-repeat:no-repeat;
+   }
+
+#threeRow{
+    
+}
+
+.row1{
+    width: 33%;
+    height: 250px;
+    background-size: cover;
+
+}
+
+.row1:first-child {
+    margin-left: 10px;
+}
+
 body{
     
     margin: 0;
