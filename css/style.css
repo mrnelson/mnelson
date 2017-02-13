@@ -74,9 +74,7 @@ a{
     overflow:hidden;
 }
 
-a:hover{
-    opacity: 50%;
-}
+
 
 
 body{
@@ -114,6 +112,39 @@ img.bg {
 
 
 /* WORK STYLE*/
+
+.grid {
+  position: relative;
+}
+.item {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  z-index: 1;
+}
+.item.muuri-dragging,
+.item.muuri-releasing {
+  z-index: 2;
+}
+.item.muuri-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 img.topcover {
     
