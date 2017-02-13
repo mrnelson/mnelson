@@ -138,7 +138,9 @@ img.bg {
 }
 
 
-
+.row2:hover{
+    border: 2px green solid;
+}
 
 
 
