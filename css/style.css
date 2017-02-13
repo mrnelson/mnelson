@@ -74,10 +74,9 @@ a{
     overflow:hidden;
 }
 
-img:hover{
+a:hover{
     opacity: 50%;
 }
-
 
 
 body{
