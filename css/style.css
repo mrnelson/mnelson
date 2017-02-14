@@ -56,6 +56,41 @@ a{
 }
 
 
+.row2:hover{
+    border: 2px green solid;
+    opacity: 50%;
+}
+
+.wordhov{
+    background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+/*  display: table;*/
+/*  height: 150px;*/
+   
+/*  left: 0;*/
+  position: absolute;
+  top: 0;
+/*  width: 150px;*/
+  opacity: 0;
+    height:80%; /* = 100% - 2*10% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    text-align:center;
+    overflow:hidden;
+}
+
+.wordhov:hover{
+    opacity: 1;
+}
+
+
+.wordsty{
+    padding-top: 30%;
+    font-size: 1.5em;
+    
+}
+
+
 .square {
     float:left;
     position: relative;
@@ -138,9 +173,6 @@ img.bg {
 }
 
 
-.row2:hover{
-    border: 2px green solid;
-}
 
 
 
