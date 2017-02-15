@@ -45,21 +45,17 @@ a{
    }
 
 
-/*HOME PAGE STYLING*/
+/*********** HOME PAGE STYLING ***********/
 .row2{
     width: 100%;
-/*    height: 80%;*/
-    background-size: cover;
-/*    margin: 0 auto;*/
+    height: 100%;
+/*    background-size: cover;*/
+    top: 0;
+/*    padding: 2% 0;*/
 /*    object-fit: cover;*/
 
 }
 
-
-.row2:hover{
-    border: 2px green solid;
-    opacity: 50%;
-}
 
 .wordhov{
     background: rgba(0,0,0,0.5);
@@ -67,13 +63,13 @@ a{
   cursor: pointer;
 /*  display: table;*/
 /*  height: 150px;*/
-   
+    background-size: cover;
 /*  left: 0;*/
   position: absolute;
-  top: 0;
+  top: 5%;
 /*  width: 150px;*/
   opacity: 0;
-    height:80%; /* = 100% - 2*10% padding */
+    height:73%; /* = 100% - 2*10% padding */
     width:90%; /* = 100% - 2*5% padding */
     text-align:center;
     overflow:hidden;
@@ -85,7 +81,7 @@ a{
 
 
 .wordsty{
-    padding-top: 30%;
+/*    padding: 0;*/
     font-size: 1.5em;
     
 }
@@ -102,7 +98,7 @@ a{
 
 .content {
     position:absolute;
-    height:80%; /* = 100% - 2*10% padding */
+    height:80%;  = 100% - 2*10% padding 
     width:90%; /* = 100% - 2*5% padding */
     padding: 10% 5% 20%;
     text-align:center;
@@ -146,7 +142,7 @@ img.bg {
 
 
 
-/* WORK STYLE*/
+/*********** WORK PAGE STYLING ***********/
 
 
 
@@ -257,8 +253,8 @@ div:after {
 
 
 
+/*************** ABOUT STYLE***************/
 
-/* ABOUT STYLE*/
 
 
 .aboutnav{
@@ -327,7 +323,19 @@ body {
 
 
 
-/*************** ABOUT STYLE***************/
+
+
+
+
+
+
+
+
+
+
+
+/*********** CONTACT ME PAGE STYLING ***********/
+
 
 a.contactnav{
     color: #000;
@@ -344,7 +352,6 @@ form{
 
 
 
-/*********** CONTACT ME PAGE STYLING ***********/
 
 form{
   position: relative;
@@ -396,8 +403,8 @@ form{
 
 #email {
   position: absolute;
-  left : 25px;
-  top  : 115px;
+  left: 25px;
+  top: 115px;
   
 }
 
