@@ -151,6 +151,7 @@ img.bg {
 
 .grid {
   position: relative;
+  margin: 35px;
 }
 .item {
   display: block;
@@ -182,14 +183,14 @@ img.bg {
 
 .item.w2 {
   background: #fdd;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
 }
 
 .item.w3 {
   background: #cde;
-  width: 300px;
-  height: 200px;
+  width: 320px;
+  height: 210px;
 }
 
 .item.w3:hover{
@@ -201,14 +202,22 @@ img.bg {
 .item.w4 {
   background: #fea;
   width: 100px;
-  height: 200px;
+  height: 210px;
 }
 
 .item.w5 {
   background: #aef;
-  width: 200px;
-  height: 400px;
+  width: 210px;
+  height: 430px;
 }
+
+.item.w6 {
+  background: #fae;
+  width: 210px;
+  height: 100px;
+}
+
+
 
 
 
