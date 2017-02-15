@@ -336,18 +336,99 @@ a.contactnav{
     color: #000;
 }
 
+/*
 form{
     position: relative;
     padding: 200px;
     margin: auto;
     text-align: center;
 }
+*/
 
 
 
+/*********** CONTACT ME PAGE STYLING ***********/
+
+form{
+  position: relative;
+  width  : 800px;
+  height : 498px;
+  margin-top: 200px;
+    
+  font-size: 3em;
+}
+
+.sendme{
+/*   width: 1000px; */
+  padding: 5px 4px 5px 15px;
+  margin: 200px;
+  border: 2px green solid;
+}
+
+.formstyle{
+  width: 350px;
+  height: 215px;
+  padding: 5px 8px 5px 15px;
+  margin: 2px;
+  border: 4px black solid;
+  position: absolute;
+}
+
+.formstyle.name{
+  width: 350px;
+  height: 100px;
+}
+
+
+.formstyle.email{
+  width: 350px;
+  height: 100px;
+  
+
+/*   margin: 150px auto; */
+}
 
 
 
+#name {
+  position: absolute;
+  left : 25px;
+  top  : 0px;
+}
+
+#email {
+  position: absolute;
+  left : 25px;
+  top  : 115px;
+  
+}
+
+
+
+#message {
+  position: absolute;
+  left : 403px;
+  top  : 0px;
+}
+
+#send {
+  position: absolute;
+  left : 400px;
+  top  : 250px;
+  border: 4px black solid;
+  background: #fff;
+  
+}
+
+#send:hover{
+  border: 4px maroon solid;
+  color: maroon;
+}
+
+.formstyle:hover{
+  border: 4px maroon solid;
+  z-index: 1;
+}
 
 
 

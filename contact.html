@@ -22,19 +22,27 @@
 </navigation>
  
       
-     <form  class="sendme" action="//formspree.io/nelson.marta@eagles.ewu.edu"
-      method="POST">
-    <label for="name">Name:</label>
-    <input type="text" name="name">
-    <br />
-    <label for="_replyto">Email:</label>
-    <input type="email" name="_replyto">
-    <br />
-    <label for="message">Message:</label>
-    <br />
-    <textarea name="message" id="" cols="40" rows="10"></textarea>
+    <form  class="sendme" action="//formspree.io/nelson.marta@eagles.ewu.edu" method="POST">
     
-    <input type="submit" value="Send">
+    <div id="name">
+    <label  for="name" ></label>
+    <input class="formstyle name" type="text" placeholder="Name" name="name">
+    </div> 
+    
+    
+    <div id="email">
+    <label  for="_replyto"></label>
+    <input class="formstyle email" type="email" placeholder="Email" name="_replyto">
+     </div>
+    
+    <div id="message">
+    <label for="message"></label>
+    <textarea class="formstyle message" placeholder="Message..." name="message" id="" cols="40" rows="10"></textarea>
+   </div> 
+                                                                                                         
+    <input id="send" type="submit" value="Send">
+     
+                                   
   </form>     
               
                   
