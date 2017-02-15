@@ -9,20 +9,33 @@
     
 </head>
 <body>
- <navigation>
-    <nav role='navigation' id="nav">
-        <ul class="">
+ <navigation >
+    <nav  role='navigation' id="nav">
+        <ul >
            <li ><a href="../mnelson/index.html"><img src="img/mnLogo.png" class="navlogo" alt=""></a></li>
-            <li ><a href="../mnelson/work.html">work</a></li>
-            <li ><a href="../mnelson/about.html">About</a></li>
-            <li ><a href="../mnelson/contact.html">Contact</a></li>
+            <li ><a class="contactnav" href="../mnelson/work.html">Work</a></li>
+            <li ><a class="contactnav" href="../mnelson/about.html">About</a></li>
+            <li ><a class="contactnav" href="../mnelson/contact.html">Contact</a></li>
             
       </ul>
     </nav> 
 </navigation>
  
       
-          
+     <form  class="sendme" action="//formspree.io/nelson.marta@eagles.ewu.edu"
+      method="POST">
+    <label for="name">Name:</label>
+    <input type="text" name="name">
+    <br />
+    <label for="_replyto">Email:</label>
+    <input type="email" name="_replyto">
+    <br />
+    <label for="message">Message:</label>
+    <br />
+    <textarea name="message" id="" cols="40" rows="10"></textarea>
+    
+    <input type="submit" value="Send">
+  </form>     
               
                   
                       
