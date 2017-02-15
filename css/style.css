@@ -258,9 +258,6 @@ div:after {
 
 
 
-
-
-
 /* ABOUT STYLE*/
 
 
@@ -351,11 +348,11 @@ form{
 
 form{
   position: relative;
-  width  : 800px;
+  width: auto;
   height : 498px;
   margin-top: 200px;
     
-  font-size: 3em;
+  
 }
 
 .sendme{
@@ -372,6 +369,7 @@ form{
   margin: 2px;
   border: 4px black solid;
   position: absolute;
+  font-size: 3em;
 }
 
 .formstyle.name{
@@ -412,11 +410,15 @@ form{
 }
 
 #send {
+  color: gray;
   position: absolute;
-  left : 400px;
-  top  : 250px;
+  left: 50%;
+  top: 250px;
   border: 4px black solid;
   background: #fff;
+  font-size: 3em;
+  
+  margin: auto;
   
 }
 
