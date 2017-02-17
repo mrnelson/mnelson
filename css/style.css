@@ -271,6 +271,15 @@ div:after {
 /*    z-index: 1;*/
 }
 
+.imgwordsss{
+     width: 2%;
+    float: left;
+/*    padding: 10% 25%;*/
+/*    margin: 0 ;*/
+/*    color: #000;*/
+/*    position: relative;*/
+    z-index: 1;
+}
 
 
 
@@ -281,6 +290,8 @@ div:after {
     margin-top: 350px;
     color: #fff;
     position: fixed;
+     vertical-align: center;
+    
 /*    z-index: 1;*/
     
 }
@@ -288,13 +299,13 @@ div:after {
 .wordsss>img{
     
     width: 150px;
-    padding: 5% 15%;
-    margin: 100px 0;
+    padding: 5% 20%;
+    margin: 100px auto;
         position: fixed;
 
 /*    z-index: 1;*/
-    vertical-align: center;
-    border-radius: 50%;
+   
+/*    border-radius: 50%;*/
 }
 
 
@@ -302,8 +313,8 @@ div:after {
 .parasss{
      width:45%;
     float: right;
-    padding: 20px 10px;
-/*    margin-top: 10px;*/
+    padding: 25px 10px;
+    margin-top: 100px;
     color: #000;
     position: relative;
 /*    z-index: 1;*/
