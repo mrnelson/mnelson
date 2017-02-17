@@ -366,7 +366,6 @@ form{
     position: relative;
     padding: 200px;
     margin: auto;
-    text-align: center;
 }
 */
 
@@ -375,25 +374,32 @@ form{
 
 form{
   position: relative;
-  width: auto;
-  height : 498px;
+  width: 705px;
+  height : 350px;
+  text-align: center;
+/*      border: 2px red solid;*/
+/*      padding: 5px 4px 5px 15px;*/
+  margin: auto;
+  border: 2px green solid;
   margin-top: 200px;
+/*  width: 100%;*/
+    
     
   
 }
 
 .sendme{
-/*   width: 1000px; */
-  padding: 5px 4px 5px 15px;
-  margin: 200px;
-  border: 2px green solid;
+   margin: 0 auto;
+   text-align: center;
+ 
+
 }
 
 .formstyle{
   width: 350px;
-  height: 215px;
+  height: 235px;
   padding: 5px 8px 5px 15px;
-  margin: 2px;
+/*  margin: 2px;*/
   border: 4px black solid;
   position: absolute;
   font-size: 3em;
@@ -401,13 +407,13 @@ form{
 
 .formstyle.name{
   width: 350px;
-  height: 100px;
+  height: 75px;
 }
 
 
 .formstyle.email{
   width: 350px;
-  height: 100px;
+  height: 75px;
   
 
 /*   margin: 150px auto; */
@@ -417,14 +423,14 @@ form{
 
 #name {
   position: absolute;
-  left : 25px;
+/*  left : 25px;*/
   top  : 0px;
 }
 
 #email {
   position: absolute;
-  left: 25px;
-  top: 115px;
+/*  left: 25px;*/
+  top: 80px;
   
 }
 
@@ -432,14 +438,14 @@ form{
 
 #message {
   position: absolute;
-  left : 403px;
+  left : 355px;
   top  : 0px;
 }
 
 #send {
   color: gray;
   position: absolute;
-  left: 50%;
+/*  left: 50%;*/
   top: 250px;
   border: 4px black solid;
   background: #fff;
@@ -461,6 +467,65 @@ form{
 
 
 
+/*Styling for select drop down....its probably not worth it*/
+
+/*
+
+.select {
+	position: absolute;
+	display: inline-block;
+	width: 350px;
+    height: 75px;
+    margin-top: 80px;
+	margin-bottom: 15px;
+    border: 4px black solid;
+    
+}
+
+.select select {
+	display: inline-block;
+	width: 100%;
+	padding: ;
+	cursor: pointer;
+	color: #7b7b7b;
+	border: 0;
+	border-radius: 0;
+	outline: 0;
+	background: #e6e6e6;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    font-size: 3em;
+    padding: 5px 8px 5px 15px;
+    
+}
+
+.select select::-ms-expand {
+	display: none;
+}
 
 
+.select select:hover,
+.select select:focus {
+	color: #000;
+	background: #ccc;
+}
 
+
+.select__arrow {
+	position: absolute;
+	top: 16px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	border-width: 8px 5px 0 5px;
+	border-style: solid;
+	border-color: #7b7b7b transparent transparent transparent;
+}
+
+
+.select select:disabled ~ .select__arrow {
+	border-top-color: #ccc;
+}
+*/

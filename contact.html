@@ -20,24 +20,63 @@
       </ul>
     </nav> 
 </navigation>
+ <div></div>
  
- <div></div>     
-<form  class="sendme" action="//formspree.io/nelson.marta@eagles.ewu.edu" method="POST">
+ <div class="sendme">   
+<form   action="//formspree.io/nelson.marta@eagles.ewu.edu" method="POST">
     
     <div id="name">
     <label  for="name" ></label>
-    <input class="formstyle name" type="text" placeholder="Name" name="name">
+    <input class="formstyle name" type="text" placeholder="Name" name="name" required>
     </div> 
     
     
     <div id="email">
     <label  for="_replyto"></label>
-    <input class="formstyle email" type="email" placeholder="Email" name="_replyto">
+    <input class="formstyle email" type="email" placeholder="Email" name="_replyto" required>
      </div>
+    
+   
+  
+  
+  
+  
+<!--
+ <div class="control-group">
+	<h1>Select boxes</h1>
+	<div class="select">
+		<select>
+			<option>Hire Me</option>
+			<option>Refer Me</option>
+			<option>Other</option>
+		</select>
+		<div class="select__arrow"></div>
+	</div>
+	
+</div> 
+-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     
     <div id="message">
     <label for="message"></label>
-    <textarea class="formstyle message" placeholder="Message..." name="message" id="" cols="40" rows="10"></textarea>
+    <textarea class="formstyle message" placeholder="Message..." name="message" id="" cols="40" rows="10" required></textarea>
    </div> 
                                                                                                          
     <input id="send" type="submit" value="Send">
@@ -45,13 +84,13 @@
                                    
 </form>     
               
-                  
+ </div>                  
                       
                               
       
       
       
-      
+    <script src="js/main.js"></script>
       
 </body>
 </html>
