@@ -4,3 +4,5 @@ var grid = new Muuri({
   // so we have to do it manually.
   items: [].slice.call(document.getElementsByClassName('item'))
 });
+
+
