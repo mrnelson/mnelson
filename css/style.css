@@ -370,7 +370,11 @@ form{
 */
 
 
-
+.sendme h1{
+    margin-top: 175px;
+    font-size: 3em;
+/*    position: relative;*/
+}
 
 form{
   position: relative;
@@ -380,8 +384,8 @@ form{
 /*      border: 2px red solid;*/
 /*      padding: 5px 4px 5px 15px;*/
   margin: auto;
-  border: 2px green solid;
-  margin-top: 200px;
+/*  border: 2px green solid;*/
+  margin-top: px;
 /*  width: 100%;*/
     
     
@@ -398,16 +402,18 @@ form{
 .formstyle{
   width: 350px;
   height: 235px;
-  padding: 5px 8px 5px 15px;
+  padding: 15px 8px 10px 15px;
 /*  margin: 2px;*/
   border: 4px black solid;
   position: absolute;
-  font-size: 3em;
+    font-size: 1.5em;
+
 }
 
 .formstyle.name{
   width: 350px;
   height: 75px;
+    
 }
 
 
@@ -425,6 +431,7 @@ form{
   position: absolute;
 /*  left : 25px;*/
   top  : 0px;
+/*  font-size: 3em;*/
 }
 
 #email {
@@ -447,9 +454,10 @@ form{
   position: absolute;
 /*  left: 50%;*/
   top: 250px;
+  left : 355px;
   border: 4px black solid;
   background: #fff;
-  font-size: 3em;
+  font-size: 2em;
   
   margin: auto;
   
@@ -460,9 +468,41 @@ form{
   color: maroon;
 }
 
+
 .formstyle:hover{
   border: 4px maroon solid;
   z-index: 1;
+}
+
+
+
+/*
+input[type=text]
+{
+  font-size: 1em;
+}
+*/
+
+
+
+::-webkit-input-placeholder {
+/*   color: red;*/
+   font-size: 2em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+/*   color: red; */
+   font-size: 3em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+/*   color: red;*/
+   font-size: 3em;
+}
+
+:-ms-input-placeholder {  
+/*   color: red;*/
+   font-size: 3em;
 }
 
 
