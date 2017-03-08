@@ -6,6 +6,8 @@ var grid = new Muuri({
   items: []
 });
 
+
+//generateElements(20) is the number of images
 grid.add(generateElements(20))
 grid._settings.layout = ['firstFit', {
     horizontal:false,
